@@ -14,7 +14,7 @@ import ui.TextoveRozhrani;
  * 
  * Táto trieda je tvorená najdôležitejšou metódou celého programu, vďaka ktorej sa spustí.
  *
- * @author Filip Vencovský
+ * @author Filip Vencovský, Lenka Šťastná
  * @version pro školní rok 2017/2018
  */
 public class Start extends javafx.application.Application {
@@ -49,9 +49,9 @@ public class Start extends javafx.application.Application {
 
 		Parent root = loader.load();
 		HomeController c = loader.getController();
-		c.inicializuj(new Hra());
+//		c.inicializuj(new Hra());
 
-		primaryStage.setTitle("Detektivka");
+		primaryStage.setTitle("Detekt");
 		primaryStage.setResizable(true);
 		primaryStage.setScene(new Scene(root));
 		primaryStage.show();
