@@ -4,7 +4,7 @@ package logika;
 
 import java.util.Map;
 import java.util.HashMap;
-/**
+/***
  *  Trida Batoh 
  *
  *
